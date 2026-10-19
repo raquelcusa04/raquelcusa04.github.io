@@ -40,8 +40,7 @@
 
 .contact-bottom {
     position: relative;
-    margin: 0 2rem;
-    padding-bottom: 4rem;
+    margin: 4rem 2rem;
 }
 
 .availability-text {
@@ -125,5 +124,14 @@
 
     .mail-contact {
         font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .bg-contact{
+        height:50vh;
+    }
+    .contact-bottom{
+        margin: 6rem 2rem;
     }
 }

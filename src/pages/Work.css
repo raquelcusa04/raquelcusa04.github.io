@@ -140,13 +140,15 @@
 }
 
 @media (min-width: 870px) {
+    .bg-work{
+        height:24vh;
+    }
     .work-section {
         padding: 4rem 3rem 3rem 3rem;
     }
 
     .work-grid {
         grid-template-columns: repeat(2, 1fr);
-        
         gap: 3.5rem 2.5rem;
         padding: 2rem 0 0 0;
     }
@@ -161,3 +163,21 @@
 
 }
 
+@media (min-width: 1920px) {
+    .bg-work{
+        height:20vh;
+    }
+    .project-grid-card {
+        height: 350px;
+    } 
+    .work-cards {
+        max-width: 1250px;
+        padding-top: 4rem;
+    }
+    .work-grid{
+        display: grid;
+        place-items: center;
+        padding-top: 5rem;
+        
+    }
+}

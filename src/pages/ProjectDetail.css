@@ -2022,6 +2022,12 @@
 }
 
 @media (min-width: 1440px) {
+    .project-body{
+        display: grid;
+        place-items: center;
+        min-height: var(--app-height);
+        margin: 0;
+    }
     .modal-img-single{
         position: relative;
         height:auto;
@@ -2034,6 +2040,24 @@
     }
     
     .desktop-mockup-wrapper {
-        max-width: 1050px;
+        display: grid;
+        place-items: center;
+        min-height: var(--app-height);
+        margin: 0; 
+        max-width: 1200px;
     }
+}
+
+@media (min-width: 1920px) {
+    .desktop-mockup-wrapper {
+        display: grid;
+        place-items: center;
+        min-height: var(--app-height);
+        margin: 0; 
+        max-width: 1650px;
+    }
+
+    .video-presentation-desktop {
+    top: 10%;
+}
 }
