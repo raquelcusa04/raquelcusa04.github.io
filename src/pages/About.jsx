@@ -71,8 +71,8 @@ return (
                 transition={{ duration: 0.35, ease: 'easeInOut' }}
             >
                 <div className="degree-inner-content">
-                <p><strong>Studies:</strong> Data Visaulization, Graphic Interface Design (UI/UX), Audiovisual Production and Realization</p>
-                <p><strong>Focus Area:</strong> Strategic Communication, Audiovisual Design, Creative Direction</p>
+                <p><strong>Studies:</strong> Data Visualization, Graphic Interface Design (UI/UX), HCI, Audiovisual Production and Realization</p>
+                <p><strong>Focus Area:</strong> UX/UI Design, Visual Communication, Digital Product Design</p>
                 </div>
             </motion.div>
             )}
