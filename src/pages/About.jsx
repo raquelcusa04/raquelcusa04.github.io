@@ -132,7 +132,7 @@ return (
                     transition={{ duration: 2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
                 >
                 <img src="/about/border-soft-skills.svg" alt="" className="pill-svg" />
-                <span className="pill-text pill-text-outline">Collaborative</span>
+                <span className="pill-text pill-text-outline">Teamwork</span>
             
                 </motion.div>
 
@@ -145,7 +145,7 @@ return (
                     transition={{ duration: 2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
                 >
                 <img src="/about/border-soft-skills.svg" alt="" className="pill-svg" />
-                <span className="pill-text pill-text-outline">Polyvalent</span>
+                <span className="pill-text pill-text-outline">Adaptability</span>
                 </motion.div>
 
                 {/* 3. CENTRE: Píndola farcida */}
